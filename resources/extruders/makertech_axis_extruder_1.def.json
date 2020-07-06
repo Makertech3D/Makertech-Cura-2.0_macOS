@@ -1,0 +1,19 @@
+{
+    "id": "makertech_axis_extruder_1",
+    "version": 2,
+    "name": "Extruder 2",
+    "inherits": "fdmextruder",
+    "metadata": {
+        "machine": "axis",
+        "position": "1"
+    },
+
+    "overrides": {
+        "extruder_nr": { "default_value": 1 },
+		"machine_nozzle_size": { "default_value": 0.3 },
+        "material_diameter": { "default_value": 1.75 },
+		"machine_extruder_end_code": {
+           "default_value": ";------- T1 End Gcode ------- \nT1 \nG0 X{prime_tower_position_x} Y{prime_tower_position_y} \nG91             ;Relative positioning \nG1 E-4  F12000  ;Pull 4mm \nG1 E3   F12000  ;Push 3mm \nG1 E-30 F12000  ;Unload \nG1 E-80 F6000 \nT0 \nG1 E80 F3000    ;Load \nG1 E20 F2000 \nG1 E11 F1000 \nG90             ;Absolute positioning \n;------- T1 End Gcode -------"
+        }
+    }
+}
