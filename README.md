@@ -7,7 +7,7 @@ Resource files for Makertech 3D printers for installing the Makertech Edition of
 Built and tested on version 4.6.1 of Ultimaker Cura.
 
 Install instructions:
-1. Download and install Ultimaker Cura v4.6.1 from here.
+1. Download and install Ultimaker Cura v4.6.1 from [here](https://github.com/Ultimaker/Cura/releases/tag/4.6.1).
 2. Right click on application and click "show package content".
 3. Go to Content/resources/plugins/plugins
 4. Delete folders: "VersionUpgrade" and " UpdateChecker".
