@@ -1,4 +1,4 @@
-# Makertech-Cura-macOS-
+# Makertech-Cura-2.0_macOS
 
 Makertech Cura V2.0
 
