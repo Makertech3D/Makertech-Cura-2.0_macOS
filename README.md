@@ -20,7 +20,11 @@ Install instructions:
 11. Done.
 
 If you receive an error message that the package is damaged:
+
 Dismiss that error.
+
 Open a terminal window and execute:
+
 sudo xattr -rds com.apple.quarantine /Applications/Ultimaker\ Cura.app
+
 You can now open Cura.
