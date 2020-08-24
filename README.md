@@ -1,6 +1,6 @@
 # Makertech-Cura-2.0_macOS
 
-Makertech Cura V2.0
+Makertech Cura V2.0.1
 
 Resource files for Makertech 3D printers for installing the Makertech Edition of Cura on macOS.
 
